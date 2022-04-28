@@ -1485,14 +1485,19 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
-"@react-native-firebase/app@^14.9.0":
-  version "14.9.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-14.9.0.tgz#30965fdded53a36a82e4fda575d9e74b55f4eeaa"
-  integrity sha512-yGGCa4l/JpTgcUhBWYW8Mhs7TeBJ5d7MzM12bsoaeW34hkxx0Ik4kHv3DAdr0ctGPmRE+uQbCYsAy3a2Q6bZ+g==
+"@react-native-firebase/app@^14.9.1":
+  version "14.9.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-14.9.1.tgz#8a40af4dcea88a1c41d8c1a9b179e8260999bdb0"
+  integrity sha512-EmBFJnlpG8uhJhAwh624Q/1Ta+bvoKZjFckpt7uuJZ51wH3CzYudt+DmLbV6E/Frc1z2ogmcZnET7ELSxr6BOg==
   dependencies:
     "@expo/config-plugins" "^4.1.1"
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
+
+"@react-native-firebase/firestore@^14.9.1":
+  version "14.9.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-14.9.1.tgz#1dee9c1a31204194d3feae1f9a6e83384c2481e0"
+  integrity sha512-ZrrO0oy1XWZUn6ShtVJABy/SUs90io/faKP3mJ6iE1hq99OJy8NjtEFQUelGVzZ4dRTTv3kRH8En8KKopdvgHw==
 
 "@react-native/assets@1.0.0":
   version "1.0.0"
