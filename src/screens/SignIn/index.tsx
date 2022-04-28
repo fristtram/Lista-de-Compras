@@ -8,7 +8,7 @@ import { Input } from '../../components/Input';
 export function SignIn() {
   return (
     <Container>
-      <Title>MyShopping</Title>
+      <Title>Lista de Compra</Title>
       <Subtitle>monte sua lista de compra te ajudar nas compras</Subtitle>
 
       <Input
