@@ -15,7 +15,7 @@ export const Progress = styled.Text`
   font-size: 44px;
   font-family: ${({ theme }) => theme.FONTS.MEDIUM};
   color: ${({ theme }) => theme.COLORS.GRAY900};
-  margin-Top: 48px;
+  margin-Top: 28px;
 `;
 
 export const Transferred = styled.Text`
