@@ -31,6 +31,11 @@ export function Upload() {
   };
 
   async function handleUpload() {
+    if (image.length === 0) {
+      Alert.alert('É necessário selecionar uma imagem');
+      return;
+    }
+    
     const fileName = new Date().getTime();
     const reference = storage().ref(`/images/${fileName}.png`);
 
@@ -43,8 +48,10 @@ export function Upload() {
       setBytesTransfered(`${taskSnapshot.bytesTransferred} transferido de ${taskSnapshot.totalBytes}`);
     });
 
-    uploadTask.then(() => {
+    uploadTask.then(async() => {
+      const imageUrl = await reference.getDownloadURL();
       Alert.alert('Upload concluido com sucesso!');
+      setImage('');
     });
   }
 
